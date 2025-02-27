@@ -1,0 +1,22 @@
+{
+  "name": "@dkargo/validator-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "claim": "ts-node ./scripts/claim.ts",
+    "unstake": "ts-node ./scripts/unstake.ts",
+    "createWallet": "ts-node ./scripts/createWallet.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@arbitrum/sdk": "^4.0.2",
+    "dotenv": "^16.4.7",
+    "ethers": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.2"
+  }
+}
