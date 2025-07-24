@@ -4,6 +4,7 @@
 To execute these functionalities, you need to add the following information to the .env file.
 ROLLUP_CONTRACT and WALLET_CREATOR are system contract addresses deployed on L2.
 If you do not have a VALIDATOR_WALLET, follow the procedure below to create one and add it to the environment file.
+You can find the information from this [link](https://docs.dkargo.io/undefined-6/undefined).
 ```text
 #chain info
 L2_URL=
@@ -16,7 +17,7 @@ WALLET_CREATOR=
 #user info
 SIGNER_PK_KEY=
 ```
-> [주의사항] If a single SIGNER_PK_KEY holds multiple VALIDATOR_WALLETs, you cannot run the node using that key.
+> [WARN] If a single SIGNER_PK_KEY holds multiple VALIDATOR_WALLETs, you cannot run the node using that key.
 
 ### Creating a Wallet Contract
 If you do not have a wallet, execute the following script to create one:
